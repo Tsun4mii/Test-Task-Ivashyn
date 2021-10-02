@@ -105,14 +105,7 @@ async function genPdf(req, res){
     {
         res.send(JSON.stringify(err.message))
     }
-    /*let imgBytes = '';
-    exUser.image.includes(path.join(__dirname, '../images/')) 
-      ? imgBytes = fs.readFileSync(exUser.image)
-      : imgBytes = await fetch(exUser.image).then(res => res.arrayBuffer());
-    let userImg = '';
-    if (exUser.image.includes('.jpg'))
-      userImg = await pdfDoc.embedJpg(imgBytes);
-    if (exUser.image.includes('.png'))*/
+
 
 }
 
